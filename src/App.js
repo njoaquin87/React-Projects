@@ -3,11 +3,10 @@ import './assets/css/App.css';
 import MiComponente from './components/MiComponente';
 
 function HolaMundo(nombre,edad){
-  var presentacion= (<div>
+  return  (<div>
     <h2>Hola, soy {nombre}</h2>
     <h3>Tengo {edad} años</h3>
   </div>);
-  return presentacion;
 }
 function App() {
   var nombre = "Nilton J.";
